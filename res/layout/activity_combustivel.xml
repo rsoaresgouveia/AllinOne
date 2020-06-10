@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul"
+    android:orientation="vertical"
+    android:padding="40dp" 
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvHomeImc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/btn_home"
+        android:paddingBottom="60dp"
+        android:text="Vantagem ao abastecer"
+        android:textColor="@color/branco"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o Valor da Gasolina"
+        android:textColor="@color/branco"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edGasolina"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/branco" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="Digite o valor do Etanol"
+        android:textColor="@color/branco"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edEtanol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/branco" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btCalcComb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_calcular"
+            android:text="Calcular"
+            android:textColor="@color/branco" />
+
+        <Button
+            android:id="@+id/btLimparComb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_limpar"
+            android:text="Limpar"
+            android:textColor="@color/branco" />
+    </LinearLayout>
+
+</LinearLayout>
